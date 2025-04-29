@@ -7,9 +7,9 @@ If there are no odd numbers, print: "No odd numbers found."
 Otherwise, print the sum of odd numbers.
 """
 
-def sum_of_odd(nums_list: list) -> int:
+def sum_of_odd(nums_list: list) -> tuple:
     
-    """Function to calculate sum of odd numbers."""
+    """Function to calculate sum of odd numbers. And return a tuple with sum of odd list and length of odd list"""
     odd_list = [item for item in nums_list if item % 2 != 0]
     return sum(odd_list), len(odd_list)
 
