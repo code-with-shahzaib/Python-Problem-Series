@@ -6,7 +6,6 @@ Calculate the difference between the maximum and minimum.
 Show all three results properly.
 """
 
-# def min_max_difference(nums):
 def min_max_difference(lst:list) -> str:
     
     maximum = max(lst) # Maximum number from the list
