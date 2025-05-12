@@ -19,3 +19,8 @@ Take any words, and count how many words user typed."""
 words = list(map(str, input("Enter any words (space-separated): ").split()))
 num_of_words = len(words)
 print(f"You have entered {num_of_words} words.")
+
+
+"""Take floating point numbers and print them in a list"""
+numbers = list(map(float, input("Enter floating point numbers: "))
+print(f"The numbers in list: {numbers}")
