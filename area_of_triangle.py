@@ -6,8 +6,8 @@ def area_of_triangle(base: float, perp_height: float) -> float:
 if __name__ == "__main__":
 
     try:
-        base = float(input("Enter the base of triangle: "))
-        perp_height = float(input("Enter the perpendicular height of triangle: "))
+        base = float(input("Enter the base of the triangle: "))
+        perp_height = float(input("Enter the perpendicular height of the triangle: "))
         area = area_of_triangle(base, perp_height)
         print(f"The area of triangle: {area:.2f}")
     
